@@ -1,0 +1,28 @@
+@startuml ClassDiagram
+
+class Client {
+  -Id : Guid
+  -Alias : string
+  -CurrentRoom : Room
+}
+
+class Room {
+  -Id : Guid
+  -Name : string
+  -Clients : List<Client>
+  -Messages : List<Message>
+}
+
+class Message {
+  -Id : Guid
+  -Sender : Client
+  -Content : string
+  -Timestamp : DateTime
+  -Recipient : Room | Client
+}
+
+Room "1..*" -- "0..*" Client : has
+Room "1..*" -- "0..*" Message : contains
+Client "1" -- "0..*" Message : sends
+
+@enduml
