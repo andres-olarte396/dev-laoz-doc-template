@@ -1,9 +1,9 @@
 # Propósito
 
-Este documento tiene como objetivo definir el propósito del sistema de software a desarrollar, alineando las expectativas del equipo de desarrollo con los objetivos estratégicos del negocio. 
+El propósito de este documento es proporcionar una descripción general del sistema y detallar las bases necesarias para su desarrollo. Este documento busca:
 
-**Objetivo principal:**
-- Describir la razón de ser del sistema, los problemas que soluciona, y los beneficios que aporta.
+- Definir los objetivos del proyecto.
+- Alinear las expectativas entre los interesados.
+- Establecer un marco de referencia para el análisis, diseño e implementación del sistema.
 
-## Propósito
-(Describir aquí de manera breve el propósito del sistema)
+El sistema a desarrollar tiene como objetivo principal [describir brevemente el propósito del sistema, por ejemplo: "gestionar inventarios de manera eficiente en tiempo real"].
